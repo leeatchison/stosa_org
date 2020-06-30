@@ -6,7 +6,7 @@ weight: 40
 Figure 3 shows a typical organization hierarchy for a STOSA-based organization. Essentially, all development teams that are service-owning teams are peers, organizationally. They are all supported uniformly by a series of supporting teams, including operations, tooling, databases, and other similar teams. All of these may or may not also sit on top of other core teams that have universal responsibility for the organization, but not for individual services. This can include things like an architectural guidance team or a program management team.
 
 <div style="padding-bottom: 20px;">
-    <img src="/stosa-teams.png">
+    <img src="/images/stosa-teams.png">
     <div style="font-style:italic;"><span style="font-weight:bold;">Figure 3</span>. STOSA-based organization heiarchy.</div>
 </div>
 

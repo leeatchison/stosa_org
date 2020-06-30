@@ -20,7 +20,7 @@ A STOSA-based application is an application for which all services follow the pr
 Typically, in a STOSA-based organization, each team should be of reasonable size (typically between three and eight engineers). If a team is too small, it cannot manage a service effectively. If it’s too large, it becomes cumbersome to manage the team.
 
 <div style="padding-bottom: 20px;">
-    <img src="/stosaorg.png">
+    <img src="/images/stosaorg.png">
     <div style="font-style:italic;"><span style="font-weight:bold;">Figure 1</span>. A typical STOSA-based organization managing a STOSA application.</div>
 </div>
 
@@ -33,7 +33,7 @@ Clear ownership for every aspect of the application exists. For any part of the 
 Figure 2 shows an example application and organization that is not a STOSA organization.
 
 <div style="padding-bottom: 20px;">
-    <img src="/nonstosaorg.png">
+    <img src="/images/nonstosaorg.png">
     <div style="font-style:italic;"><span style="font-weight:bold;">Figure 2</span>. Non-STOSA-based organization.</div>
 </div>
 

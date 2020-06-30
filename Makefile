@@ -14,6 +14,3 @@ cleanup: # Clean up resources and public directory
 	@mkdir ./public/
 build: # Production build
 	@hugo --gc --minify
-deploy: # Deploy to AWS
-	@hugo --gc --minify
-	@hugo deploy --target="aws"

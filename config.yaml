@@ -1,13 +1,8 @@
 baseURL: "https://stosa-org.netlify.app/"
 languageCode: "en-us"
 title: "STOSA"
+# Theme: https://github.com/victoriadrake/hugo-theme-introduction
 theme: "introduction"
-#themesDir: "../hugo-themes/"
-
-deployment:
-  targets:
-    name: "aws"
-    URL: "s3://stosa.org?region=us-east-1"
 
 markup:
   goldmark:
@@ -17,6 +12,31 @@ markup:
 params:
   description: "Single Team Oriented Service Architecture"
   footerText: "© 2019-2020 Lee Atchison"
+  themeStyle: "light"
+  favicon: "/afs2e40x40.gif"
+  showRSSButton: false
+  fadeIn: true
+  fadeInIndex: false
+  dateFormat: "Jan 2, 2006"
+  email: "unk@unk.com"
+  home:
+    introHeight: "fullheight"
+    localTime: true
+    timeZone : "America/Los_Angeles"
+    timeFormat: "h:mm A"
+  share:
+    twitter: true
+    facebook: true
+  social:
+    - url: "https://twitter.com/leeatchison"
+      icon: "twitter"
+      icon_pack: "fab"
+    - url: "https://www.facebook.com/mdascale/"
+      icon: "facebook-f"
+      icon_pack: "fab"
+    - url: "https://www.linkedin.com/in/leeatchison/"
+      icon: "linkedin-in"
+      icon_pack: "fab"
 
 menu:
   main:
