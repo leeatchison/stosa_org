@@ -1,0 +1,43 @@
+baseURL: "https://stosa.org.s3-website-us-east-1.amazonaws.com/"
+languageCode: "en-us"
+title: "STOSA"
+theme: "introduction"
+themesDir: "../hugo-themes/"
+
+deployment:
+  targets:
+    name: "aws"
+    URL: "s3://stosa.org?region=us-east-1"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "Single Team Oriented Service Architecture"
+  footerText: "© 2019-2020 Lee Atchison"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "STOSA"
+      url: "#intro"
+      weight: 2
+    - name: "Advantages"
+      url: "#advantages"
+      weight: 3
+    - name: "What does it mean?"
+      url: "#whatmean"
+      weight: 4
+    - name: "Organization"
+      url: "#stosaorg"
+      weight: 5
+    - name: "Core Teams"
+      url: "#coreteams"
+      weight: 6
+    - name: "More Info"
+      url: "#moreinfo"
+      weight: 7
