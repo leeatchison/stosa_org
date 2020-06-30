@@ -9,6 +9,14 @@ markup:
     renderer:
       unsafe: true
 
+# Disable Taxonomies
+disableKinds:
+  - taxonomy
+  - term
+
+taxonomies:
+  tag: tags
+
 params:
   description: "Single Team Oriented Service Architecture"
   footerText: "© 2019-2020 Lee Atchison"
