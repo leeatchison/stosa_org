@@ -12,6 +12,6 @@ config: # Show site configuration
 cleanup: # Clean up resources and public directory
 	@rm -rf ./public/ ./resources/
 	@mkdir ./public/
-deploy: Deploy to AWS
-	@hugo
+deploy: # Deploy to AWS
+	@hugo --gc --minify
 	@hugo deploy --target="aws"
