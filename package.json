@@ -8,8 +8,8 @@
   },
   "author": "",
   "dependencies": {
-    "postcss_cli": "*",
-    "autoprefixer": "*"
+    "postcss_cli": "7",
+    "autoprefixer": "x"
   },
   "license": "ISC"
 }
