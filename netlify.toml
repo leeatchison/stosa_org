@@ -28,3 +28,13 @@ HUGO_VERSION = "0.73.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/stosa"
+  to = "/"
+  status = 302
+
+[[redirects]]
+  from = "/lee"
+  to = "https://leeatchison.com"
+  status = 302
