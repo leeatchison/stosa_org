@@ -3,7 +3,7 @@ title: "Single Team Oriented Service Architecture"
 date: 2020-06-20T20:37:52-07:00
 weight: 10
 ---
-What is Single Team Owned Service Architecture (STOSA)? STOSA is an important guiding principle for large organizations that have many development teams that own and manage services comprising one or more applications.
+What is Single Team Oriented Service Architecture (STOSA)? STOSA is an important guiding principle for large organizations that have many development teams that own and manage services comprising one or more applications.
 
 What does it mean to have a STOSA application and organization? To be STOSA, you must meet the following criteria:
 
