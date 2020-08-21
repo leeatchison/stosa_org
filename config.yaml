@@ -4,6 +4,7 @@ title: "STOSA"
 # Theme: https://github.com/victoriadrake/hugo-theme-introduction
 theme: "introduction"
 # enableInlineShortcodes: true
+googleAnalytics: UA-173525449-5
 
 markup:
   goldmark:
